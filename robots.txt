@@ -1,0 +1,9 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /login/
+Disallow: /private/
+
+User-agent: Googlebot
+Disallow: /private/
+
+Sitemap: https://www.seusite.com/sitemap.xml

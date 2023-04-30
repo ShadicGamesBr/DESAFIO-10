@@ -1,0 +1,156 @@
+@charset "UTF-8";
+header{
+    background-image: linear-gradient(to bottom, rgb(74, 219, 147), rgb(18, 99, 51));  /*banner*/
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.4);
+}
+@font-face {
+    font-family: "fonte";
+    src: url(Fontes/idroid.otf);
+}
+/*usar ".." para definir um endereço , ele volta uma pasta anterior*/
+:root{
+    --branca: #ffffff;
+    --preta: #000000;
+    --magenta :#ff00ff;
+    --ciano: #00ffff; /*Variáveis em CSS usado para guardar dados :root{}*/
+    --amarelo: #ffff00;
+    --vermelha: #ff0000;
+    --azul: #0000ff;
+    --verde: #00ff00;
+    --teste: rgb(0, 255, 200);
+
+}
+header > nav >  h1{
+    font-size: 2.5em;
+    text-align: center;      /*Título*/
+    color: var(--branca);
+    font-weight: bold;
+    background-image: none;
+}
+header > nav > p{
+    color: var(--branca);        /*mensagem depois do título*/
+    text-align: center;
+    font-size: 1.4em;
+}
+header > nav > span{
+    cursor: pointer;
+    color: white;       /*Menus*/
+    font-size: 1.1em;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 30px;
+    padding: 5px;
+    line-height: 30px;
+    border-radius: 5px;
+}
+header > nav > span:hover{
+    transition: 0.3s ease-in-out;
+    background-color: rgb(174, 230, 207);
+    color: rgb(18, 99, 51);
+} 
+h1{
+    font-family: "fonte";
+    font-size: 1.8em;
+    color: rgb(18, 99, 51);
+    background-image: linear-gradient(to right, rgb(5, 199, 102), rgba(0, 0, 0, 0));
+    margin-left: 50px;
+    margin-right: 50px;
+}
+body{
+    background-color: rgb(236, 225, 193);
+    text-indent: 50px;
+}
+main{
+    border-radius: 10px;
+    background-color: white;
+    margin: auto;
+    text-align: center;
+    font-size: 1em;
+    font-weight: 600;
+    min-width: 320px;
+    max-width: 1000px;
+    box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.4);
+}
+span{
+    color: rgb(3, 97, 50);
+}
+aside{
+    margin-right: 20px;
+    margin-left: 20px;
+    background-color: rgb(174, 230, 207);
+    border-radius: 20px 20px 20px 20px;
+}
+aside > h2{
+    background-color: rgb(0, 122, 61);
+    color: white;
+    border-radius: 20px 20px 0px 0px;
+}
+aside >p{
+    background-color: rgb(174, 230, 207);
+    color: black;
+}
+aside > ol{
+    background-color: rgb(174, 230, 207);
+    color: black;
+    text-align: center;
+}
+#esquerda{
+    display: inline-block;
+}
+#direita{
+    display: inline-block;
+}
+aside > p{
+    background-color: rgb(174, 230, 207);
+}
+iframe{
+    scale: 1.3;
+}
+*{
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+main > p{
+    margin-left: 25px;
+    margin-right: 25px;
+}
+header > p {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+#lista{
+    text-align: center;
+}
+main > p{
+    text-align: justify;
+}
+img{
+    width: 100%;
+}
+main > p > a{
+    padding: 2px 5px 2px 5px;
+    text-decoration: none;
+    background-color: rgba(124, 163, 144, 0.171);
+}
+#bugdroids{
+    max-width: 400px;
+    height: 100%;
+    width: 100%;
+}
+#final{
+    border-radius: 10px;
+}
+.youtube{
+    background-color: rgb(18, 99, 51);
+    padding: 75px;
+}
+#dandroids{
+    height: 100%;
+    width: 100%;
+}
+#irina{
+    height: 100%;
+    width: 100%;
+}
